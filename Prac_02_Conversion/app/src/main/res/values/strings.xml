@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Prac_02_Conversion</string>
+    <string name="txt_view_from">From:</string>
+    <string name="txt_view_to">To:</string>
+    <string name="txt_button_convert">Convert</string>
+    <string name="txt_hint_from">Input number</string>
+</resources>
