@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Prac01 - Calculator</string>
+    <string name="add_button">A+B</string>
+    <string name="sub_button">A-B</string>
+    <string name="mul_button">A×B</string>
+    <string name="div_button">A÷B</string>
+    <string name="val_a_text">Value A:</string>
+    <string name="val_b_text">Value B:</string>
+    <string name="res_text">Result:</string>
+    <string name="hint_a">Input number</string>
+    <string name="hint_b">Input number</string>
+    <string name="hint_res">"Output"</string>
+    <string name="zero_div_error">Division by zero is undefined</string>
+    <string name="empty_field_error">Input fields cannot be empty</string>
+    <string name="pow_button">Aᴮ</string>
+    <string name="root_button">ᴮ√A</string>
+    <string name="sin_button">sin(A)ᴮ</string>
+    <string name="cos_button">cos(A)ᴮ</string>
+    <string name="tg_button">tg(A)ᴮ</string>
+    <string name="negative_number_under_even_root_error">Cannot take even root of negative number</string>
+    <string name="degree_root_zero_error">Root degree cannot be zero</string>
+    <string name="negative_number_under_fractional_root_error">Fractional root of negative number is not supported</string>
+    <string name="negative_number_under_fractional_power_error">Fractional power of negative number is not supported</string>
+    <string name="zero_negative_power_error">Zero to negative power is undefined</string>
+    <string name="tg_90_plus_180k_angle">Tangent is undefined for 90° + 180°k</string>
+</resources>
