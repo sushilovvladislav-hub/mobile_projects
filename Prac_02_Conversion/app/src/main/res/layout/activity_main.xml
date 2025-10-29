@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -20,23 +21,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/txt_view_from" />
+            android:text="@string/txt_view_from"
+            android:textColor="@color/white"/>
 
         <EditText
             android:id="@+id/txtFrom"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/txt_hint_from"
-            android:inputType="text"
-            android:textColorHint="@color/gray" />
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/white"/>
 
         <Spinner
             android:id="@+id/lstFrom"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"/>
     </LinearLayout>
 
     <LinearLayout
@@ -50,23 +54,29 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/txt_view_to" />
+            android:text="@string/txt_view_to"
+            android:textColor="@color/white"/>
 
-        <EditText
+        <TextView
             android:id="@+id/txtTo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/txt_hint_to"
-            android:inputType="text"
+            android:textColor="@color/white"
+            android:padding="14dp"
+            android:textSize="16sp"
             android:textColorHint="@color/gray" />
+
 
         <Spinner
             android:id="@+id/lstTo"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/white"/>
     </LinearLayout>
 
     <LinearLayout
@@ -77,9 +87,11 @@
 
         <Button
             android:id="@+id/convertButton"
+            style="@style/Widget.Material3.Button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="@color/blue"
             android:text="@string/txt_button_convert" />
 
     </LinearLayout>
