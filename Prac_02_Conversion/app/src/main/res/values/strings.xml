@@ -4,4 +4,5 @@
     <string name="txt_view_to">To:</string>
     <string name="txt_button_convert">Convert</string>
     <string name="txt_hint_from">Input number</string>
+    <string name="txt_hint_to">Result</string>
 </resources>
