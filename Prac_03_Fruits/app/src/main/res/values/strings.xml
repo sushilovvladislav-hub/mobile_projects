@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Prac_03_Fruits</string>
+    <string name="checkbox_app">Apple</string>
+    <string name="checkbox_blueb">Blueberry</string>
+    <string name="checkbox_cher">Cherry</string>
+    <string name="checkbox_grape">Grapes</string>
+    <string name="checkbox_lem">Lemon</string>
+    <string name="checkbox_oran">Orange</string>
+    <string name="checkbox_pear">Pear</string>
+    <string name="checkbox_rasp">Raspberry</string>
+    <string name="checkbox_strawb">Strawberry</string>
+    <string name="text_hint">Input number</string>
+</resources>
