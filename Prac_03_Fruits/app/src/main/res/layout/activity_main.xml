@@ -26,8 +26,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:ems="10"
             android:autofillHints="0"
+            android:ems="10"
             android:hint="@string/text_hint"
             android:inputType="text" />
     </LinearLayout>
@@ -218,9 +218,10 @@
 
         <Button
             android:id="@+id/button2"
+            style="@style/Widget.Material3.Button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="@string/button_text" />
     </LinearLayout>
 </LinearLayout>

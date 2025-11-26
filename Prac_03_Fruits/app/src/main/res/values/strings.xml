@@ -10,4 +10,5 @@
     <string name="checkbox_rasp">Raspberry</string>
     <string name="checkbox_strawb">Strawberry</string>
     <string name="text_hint">Input number</string>
+    <string name="button_text">Sum</string>
 </resources>
